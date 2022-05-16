@@ -50,31 +50,33 @@ header {
 
 main {
     margin: 0px auto;
+    padding-top: 30px;
     font-size: clamp(1em, 5vw, 1.5rem);
     background-color: #111;
 }
 
 main p {
-    padding: 20px;
+    margin: 0px;
+    padding: 20px 5%;
 }
 
 main .strong {
-    font-size: clamp(0.6rem, 5vw, 1.8rem);
+    padding: 10px 5%;
+    font-size: 1.2em;
     font-weight: 900;
 }
 
 main .pesquisa {
-    margin: 30px 0px;
-    padding: 20px;
-    width: 80%;
+    margin: 10px 0px;
+    padding: 20px 5%;
 }
 
 main .pesquisa a {
-    display: block;
+    display: inline-block;
     border-radius: 10px;
-    padding: 40px;
+    padding: 25px 20px;
     font-family: 'Arial Black', 'Arial Bold', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-decoration: none;
 }
 
